@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10AAD7EF149CEB54003DBCB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AAD7EE149CEB54003DBCB9 /* UIKit.framework */; };
+		10AAD7F1149CEB54003DBCB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AAD7F0149CEB54003DBCB9 /* Foundation.framework */; };
+		10AAD7F3149CEB54003DBCB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AAD7F2149CEB54003DBCB9 /* CoreGraphics.framework */; };
+		10AAD7FB149CEB54003DBCB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AAD7FA149CEB54003DBCB9 /* main.m */; };
+		10AAD7FF149CEB54003DBCB9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AAD7FE149CEB54003DBCB9 /* AppDelegate.m */; };
+		10AAD802149CEB54003DBCB9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10AAD801149CEB54003DBCB9 /* ViewController.m */; };
+		10AAD805149CEB54003DBCB9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10AAD803149CEB54003DBCB9 /* ViewController.xib */; };
+		10AAD80C149CEB8A003DBCB9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10AAD80B149CEB8A003DBCB9 /* MessageUI.framework */; };
+		10AAD829149CF3B2003DBCB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 10AAD82B149CF3B2003DBCB9 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10AAD7EA149CEB54003DBCB9 /* SampleLocalizeMFMailCompose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleLocalizeMFMailCompose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10AAD7EE149CEB54003DBCB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		10AAD7F0149CEB54003DBCB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		10AAD7F2149CEB54003DBCB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		10AAD7FA149CEB54003DBCB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10AAD7FC149CEB54003DBCB9 /* SampleLocalizeMFMailCompose-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleLocalizeMFMailCompose-Prefix.pch"; sourceTree = "<group>"; };
+		10AAD7FD149CEB54003DBCB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10AAD7FE149CEB54003DBCB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10AAD800149CEB54003DBCB9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		10AAD801149CEB54003DBCB9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		10AAD804149CEB54003DBCB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		10AAD80B149CEB8A003DBCB9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		10AAD817149CF1C3003DBCB9 /* SampleLocalizeMFMailCompose-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleLocalizeMFMailCompose-Info.plist"; sourceTree = "<group>"; };
+		10AAD82A149CF3B2003DBCB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		10AAD82D149CF3B9003DBCB9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10AAD7E7149CEB54003DBCB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AAD80C149CEB8A003DBCB9 /* MessageUI.framework in Frameworks */,
+				10AAD7EF149CEB54003DBCB9 /* UIKit.framework in Frameworks */,
+				10AAD7F1149CEB54003DBCB9 /* Foundation.framework in Frameworks */,
+				10AAD7F3149CEB54003DBCB9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10AAD7DF149CEB54003DBCB9 = {
+			isa = PBXGroup;
+			children = (
+				10AAD7F4149CEB54003DBCB9 /* SampleLocalizeMFMailCompose */,
+				10AAD7ED149CEB54003DBCB9 /* Frameworks */,
+				10AAD7EB149CEB54003DBCB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10AAD7EB149CEB54003DBCB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10AAD7EA149CEB54003DBCB9 /* SampleLocalizeMFMailCompose.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10AAD7ED149CEB54003DBCB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10AAD80B149CEB8A003DBCB9 /* MessageUI.framework */,
+				10AAD7EE149CEB54003DBCB9 /* UIKit.framework */,
+				10AAD7F0149CEB54003DBCB9 /* Foundation.framework */,
+				10AAD7F2149CEB54003DBCB9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		10AAD7F4149CEB54003DBCB9 /* SampleLocalizeMFMailCompose */ = {
+			isa = PBXGroup;
+			children = (
+				10AAD7FD149CEB54003DBCB9 /* AppDelegate.h */,
+				10AAD7FE149CEB54003DBCB9 /* AppDelegate.m */,
+				10AAD800149CEB54003DBCB9 /* ViewController.h */,
+				10AAD801149CEB54003DBCB9 /* ViewController.m */,
+				10AAD803149CEB54003DBCB9 /* ViewController.xib */,
+				10AAD7F5149CEB54003DBCB9 /* Supporting Files */,
+			);
+			path = SampleLocalizeMFMailCompose;
+			sourceTree = "<group>";
+		};
+		10AAD7F5149CEB54003DBCB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10AAD817149CF1C3003DBCB9 /* SampleLocalizeMFMailCompose-Info.plist */,
+				10AAD82B149CF3B2003DBCB9 /* InfoPlist.strings */,
+				10AAD7FA149CEB54003DBCB9 /* main.m */,
+				10AAD7FC149CEB54003DBCB9 /* SampleLocalizeMFMailCompose-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10AAD7E9149CEB54003DBCB9 /* SampleLocalizeMFMailCompose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10AAD808149CEB54003DBCB9 /* Build configuration list for PBXNativeTarget "SampleLocalizeMFMailCompose" */;
+			buildPhases = (
+				10AAD7E6149CEB54003DBCB9 /* Sources */,
+				10AAD7E7149CEB54003DBCB9 /* Frameworks */,
+				10AAD7E8149CEB54003DBCB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleLocalizeMFMailCompose;
+			productName = SampleLocalizeMFMailCompose;
+			productReference = 10AAD7EA149CEB54003DBCB9 /* SampleLocalizeMFMailCompose.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10AAD7E1149CEB54003DBCB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 10AAD7E4149CEB54003DBCB9 /* Build configuration list for PBXProject "SampleLocalizeMFMailCompose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ja,
+			);
+			mainGroup = 10AAD7DF149CEB54003DBCB9;
+			productRefGroup = 10AAD7EB149CEB54003DBCB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10AAD7E9149CEB54003DBCB9 /* SampleLocalizeMFMailCompose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10AAD7E8149CEB54003DBCB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AAD829149CF3B2003DBCB9 /* InfoPlist.strings in Resources */,
+				10AAD805149CEB54003DBCB9 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10AAD7E6149CEB54003DBCB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10AAD7FB149CEB54003DBCB9 /* main.m in Sources */,
+				10AAD7FF149CEB54003DBCB9 /* AppDelegate.m in Sources */,
+				10AAD802149CEB54003DBCB9 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10AAD803149CEB54003DBCB9 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AAD804149CEB54003DBCB9 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		10AAD82B149CF3B2003DBCB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10AAD82A149CF3B2003DBCB9 /* en */,
+				10AAD82D149CF3B9003DBCB9 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10AAD806149CEB54003DBCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		10AAD807149CEB54003DBCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10AAD809149CEB54003DBCB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleLocalizeMFMailCompose/SampleLocalizeMFMailCompose-Prefix.pch";
+				INFOPLIST_FILE = "SampleLocalizeMFMailCompose/SampleLocalizeMFMailCompose-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		10AAD80A149CEB54003DBCB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleLocalizeMFMailCompose/SampleLocalizeMFMailCompose-Prefix.pch";
+				INFOPLIST_FILE = "SampleLocalizeMFMailCompose/SampleLocalizeMFMailCompose-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10AAD7E4149CEB54003DBCB9 /* Build configuration list for PBXProject "SampleLocalizeMFMailCompose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AAD806149CEB54003DBCB9 /* Debug */,
+				10AAD807149CEB54003DBCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10AAD808149CEB54003DBCB9 /* Build configuration list for PBXNativeTarget "SampleLocalizeMFMailCompose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10AAD809149CEB54003DBCB9 /* Debug */,
+				10AAD80A149CEB54003DBCB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10AAD7E1149CEB54003DBCB9 /* Project object */;
+}
